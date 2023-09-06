@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  if notes.length
+    for note of notes
+      div= note.content
+  else
+    div No notes yet!
