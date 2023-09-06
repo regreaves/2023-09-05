@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "start": "node --watch app.mjs"
+  },
+  "type": "module"
+}
